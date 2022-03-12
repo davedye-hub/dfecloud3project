@@ -21,3 +21,10 @@ def read_items():
             }
         )
     return items_dict
+
+@app.route('/alterstatus/item/<int:id>')
+def alterstatus_item(id):
+    item = Items.query.get(id)
+    item.chemical = True
+    db.session.commit()
+    return f"Item {id} status altered to chemical"
