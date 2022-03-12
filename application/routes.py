@@ -35,3 +35,10 @@ def alterstatus_item(id):
     item.chemical = True
     db.session.commit()
     return f"Item {id} status altered to chemical"
+
+@app.route('/delete/item/<int:id>')
+def delete_item(id):
+    item = Items.query.get(id)
+    db.session.delete(item)
+    db.session.commit()
+    return f"Item {id} deleted"
