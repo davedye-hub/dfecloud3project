@@ -22,6 +22,13 @@ def read_items():
         )
     return items_dict
 
+@app.route('/update/item/<int:id>/<new_description>')
+def update_item(id, new_description):
+    item = Items.query.get(id)
+    item.description = new_description
+    db.session.commit()
+    return f"Item {id} updated to {new_description}"
+
 @app.route('/alterstatus/item/<int:id>')
 def alterstatus_item(id):
     item = Items.query.get(id)
