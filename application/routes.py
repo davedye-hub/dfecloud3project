@@ -7,3 +7,10 @@ def create_item():
     db.session.add(new_item)
     db.session.commit()
     return f"Item with id {new_item.id} added to database"
+
+@app.route('/alterstatus/item/<int:id>')
+def alterstatus_item(id):
+    item = Items.query.get(id)
+    item.chemical = True
+    db.session.commit()
+    return f"Item {id} status altered to chemical"
