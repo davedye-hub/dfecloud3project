@@ -7,3 +7,17 @@ def create_item():
     db.session.add(new_item)
     db.session.commit()
     return f"Item with id {new_item.id} added to database"
+
+@app.route('/read/allItems')
+def read_items():
+    all_items = Items.query.all()
+    items_dict = {"items":[]}
+    for item in all_items:
+        items_dict["items"].append(
+            {
+                "item": item.id,
+                "description": item.description,
+                "chemical": item.chemical
+            }
+        )
+    return items_dict
