@@ -2,21 +2,13 @@
 
 ### Contents
 
-1. [Brief](#brief)
+1. Database Design
 
-2. [Project Design](#project-design) 
+2. Documentation
 
-3. [Database Design](#databse-design) 
+3. Feature Branches
 
-4. [HTML Templates](#html-templates) 
-
-5. [CI/CD pipeline](#ci/cd-pipeline)
-
-6. [Docker Deployment](#docker-deployment)
-
-7. [Security and Risk Assessment](#security-and-risk-assessment)
-
-8. [Project Planning and Version Source Control](#project-planning-and-version-source-control)
+4. CI/CD Pipeline
 
 ## Feature Branches
 A repository was set up in GitHub which was used as the version control system (VCS) for the project.  The repository was added to a GitHub project and an automated kanban style board was initiated in GitHub to record user stories as issues to be worked on.
