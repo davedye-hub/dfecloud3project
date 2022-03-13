@@ -2,3 +2,4 @@ venv
 data.db
 __pycache__
 db_credentials
+docker-compose.yml
