@@ -4,6 +4,9 @@
 
 1. Database Design
 
+![image](https://user-images.githubusercontent.com/21013217/158126146-f4792994-240d-4a5b-b9bf-6fe81fc8cfc3.png)
+
+
 2. Documentation
 
 3. Feature Branches
