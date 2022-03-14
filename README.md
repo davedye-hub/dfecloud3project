@@ -23,15 +23,15 @@ As a user I want to be able to remove items from a location when they have been 
 As a user I want to be able to adjust the quantity of an item in a location when some of it has been used or discarded
 
 
-2. Database Design
+3. Database Design
 
 The database entity relationship diagram shows a one to many relationship between the storage locations and the equipment and chemicals stored in the location
 
 ![image](https://user-images.githubusercontent.com/21013217/158126146-f4792994-240d-4a5b-b9bf-6fe81fc8cfc3.png)
 
-3. Documentation
+4. Documentation
 
-3. Feature Branches
+5. Feature Branches
 
 A repository was set up in GitHub which was used as the version control system (VCS) for the project.  The repository was added to a GitHub project and an automated kanban style board was initiated in GitHub to record user stories as issues to be worked on.
 
