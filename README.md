@@ -1,9 +1,11 @@
 # dfecloud3project
 
 1. Requirements
+
 A web application is required to allow a school science department staff to track the chemicals and equipment stored in the school.  The development currently implements a small part fo the required functionality.
 
-3. User Stories
+2. User Stories
+ 
 The following user stories were generated from the requirements.
 
 As a user, I want to add a new location, so I know I have storage locations available
@@ -22,11 +24,12 @@ As a user I want to be able to adjust the quantity of an item in a location when
 
 
 2. Database Design
+
 The database entity relationship diagram shows a one to many relationship between the storage locations and the equipment and chemicals stored in the location
 
 ![image](https://user-images.githubusercontent.com/21013217/158126146-f4792994-240d-4a5b-b9bf-6fe81fc8cfc3.png)
 
-2. Documentation
+3. Documentation
 
 3. Feature Branches
 
